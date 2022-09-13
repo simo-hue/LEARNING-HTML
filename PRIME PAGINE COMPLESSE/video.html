@@ -7,6 +7,30 @@
     <title>Document</title>
 </head>
 <body>
+    <!--TRamite controls riusciamo ad avere un player con pulsanti funzionali-->
+    <video src="nomedelvideo.mp4" controls type></video>
+    <p>Il tuo browser non supporta quessto tipo di video</p>
+
+    <!--Per invece lasciar decidere il browser potremmo avere il video in vari formati e fare in questa maniera-->
+    <video controls height=" " width=" ">
+        <source src="videoProva.mp4" type="video/mp4">
+        <source src="videoProva.webm" type="video/webm">
+
+        <!--Mettere i sottotitoli ad un video-->
+        sub
+    </video>
+
+    <!--
+        autoplay -> Parte fin da subito
+        loop -> Riproduce all'infinito
+        muted -> Si muta l'audio
+        poster -> Si mette la miniatura
+    -->
     
+    <audio controls>
+        <source src="audio.mp3">
+    </audio>
+
+
 </body>
 </html>
