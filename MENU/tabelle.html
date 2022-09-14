@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esempio di Tabelle</title>
+</head>
+<body>
+    <style>
+        table td,
+        table th {
+            border: 1px solid rgb(0, 0, 0);
+            padding:  12px;
+            text-align: center;
+        }
+    </style>
+    
+    <table>
+        <!--Riga della tabella-->
+        <tr>
+           <!--Header della tabella--> 
+          <th>Month</th>
+          <th>Savings</th>
+        </tr>
+        <tr>
+          <td>February</td>
+          <td>$1050</td>
+        </tr>
+        <tr>
+          <td>March</td>
+          <td>$10</td>
+        </tr>
+        <tr>
+          <td>April</td>
+          <td>$100</td>
+        </tr>
+      </table>
+      <br>
+      <br>
+      <!--colspan e rowspan -> Per decidere quante colonne e righe deve occupare una singola cella-->
+      <br>
+      <br>
+      <table>
+        <tr>
+            <th>MARCA</th>
+            <th>MODELLO</th>
+            <th>ANNO</th>
+        </tr>
+        <tr>
+          <td>BMW</td>
+          <td>M4</td>
+          <td>2022</td>
+        </tr>
+        <tr>
+            <!--Visto che il modello è della stessa marca poss ofargli occupare più di una riga-->
+          <td rowspan="2">AUDI</td>
+          <td>RS4</td>
+          <td>2022</td>
+        </tr>
+        <tr>
+          <td>RS3</td>
+          <td>2025</td>
+        </tr>
+      </table>
+
+</body>
+</html>
