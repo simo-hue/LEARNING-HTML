@@ -7,7 +7,7 @@
     <title>Esercizio</title>
 </head>
 <body>
-    
+
     <ul>
         <li>
             <a href="index.html">HOME</a>
@@ -21,6 +21,92 @@
     <h1>
         TABELLA
     </h1>
+
+    <table border="1" style="width: 100%; height: 400px;">
+        <thead>
+            <td>
+                cella 1
+            </td>
+            <td>
+                cella 2
+            </td>
+            <td>
+                cella 3
+            </td>
+            <td>
+                cella 4
+            </td>
+            <td>
+                cella 5
+            </td>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td colspan="3">
+                    1
+                </td>
+                <td>
+                    4
+                </td>
+                <td rowspan="3">
+                    5
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    1
+                </td>
+                <td rowspan="2">
+                    2
+                </td>
+                <td>
+                    3
+                </td>
+                <td>
+                    4
+                </td>
+            </tr>
+            
+            <tr>
+                <td rowspan="2">
+                    1
+                </td>
+                <td>
+                    3
+                </td>
+                <td>
+                    4
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="3">
+                    2
+                </td>
+                <td>
+                    5
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    1
+                </td>
+                <td>
+                    2
+                </td>
+                <td colspan="3">
+                    3
+                </td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            
+        </tfoot>
+    </table>
 
 </body>
 </html>
